@@ -1,0 +1,25 @@
+{
+  "current": {
+    "a": {
+      "price": 4
+    },
+    "b": {
+      "price": 8
+    },
+    "c": {
+      "price": 1
+    }
+  },
+  "expected_pages": 2,
+  "max_delete_fraction": 0.4,
+  "pages": [
+    {
+      "number": 1,
+      "rows": {
+        "a": {
+          "price": 5
+        }
+      }
+    }
+  ]
+}

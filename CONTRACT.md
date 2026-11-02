@@ -1,0 +1,2 @@
+# Snapshot contract
+current is the existing SKU-to-record map. pages contains numbered page objects with rows (SKU-to-record maps). expected_pages >= 1. Missing pages defer removals. Duplicate pages, unexpected page numbers or duplicate SKUs invalidate the snapshot. A complete snapshot permits removals when their fraction of current is at or below max_delete_fraction. Output is a dry-run plan only.
